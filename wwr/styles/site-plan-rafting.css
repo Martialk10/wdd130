@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@ 0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stardos+Stencil:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #B9D6F2;
+    --secondary-color: #DCEDB9;
+    --accent1-color: #000500;
+    --accent2-color: #646881;
+
+    --headding-font: 'Roboto', serif;
+    --paragraph-font: 'Mono', serif;
+
+    --nav-background-color: #000500;
+    --nav-link-color: #B9D6F2;
+    --nav-hover-link-color: #646881;
+    --nav-hover-background-color: #DCEDB9;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headding-font);
+    color: var(--primary-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
