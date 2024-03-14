@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Here is my home page css. I use that to ameliorate my home page */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20em;
+    text-align: center;
+}
+
 nav {
     background-color: skyblue;
     padding: 10px;
@@ -55,5 +73,6 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
